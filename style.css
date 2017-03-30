@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Hannari', serif;
+    src: url('./font/Hannari.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Honoka', serif;
+    src: url('./font/font_1_honokamin.ttf') format('truetype');
+}
+
+html,
+body {
+    width: 100%;
+    height: auto;
+    font-family: 'Honoka', serif;
+}
+
+
+/* メインビジュアル */
+
+.main-k {
+    height: 500px;
+    background-image: url(./img/bg-seigaiha.jpg);
+    background-size: cover;
+    background-color: #74D0E7;
+    background-blend-mode: overlay;
+    -webkit-background-blend-mode: overlay;
+    -moz-background-blend-mode: overlay;
+    position: relative;
+    color: #0d0015;
+}
+
+.main-a {
+    height: 500px;
+    background-image: url(./img/bg-kikuseigaiha.jpg);
+    background-size: cover;
+    background-color: #D90A00;
+    background-blend-mode: overlay;
+    -webkit-background-blend-mode: overlay;
+    -moz-background-blend-mode: overlay;
+    position: relative;
+    color: #fdeff2;
+}
+
+.main-m {
+    height: 500px;
+    background-image: url(./img/bg-komochiseigaiha.jpg);
+    background-size: cover;
+    background-color: #6000BD;
+    background-blend-mode: overlay;
+    -webkit-background-blend-mode: overlay;
+    -moz-background-blend-mode: overlay;
+    position: relative;
+    color: #0d0015;
+}
+
+
+/* メインビジュアルのレイアウト */
+
+.visual {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* メインビジュアルのレイアウトの文字 */
+
+.title {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 130px;
+    font-family: 'Hannari', serif;
+    letter-spacing: -5px;
+}
+
+.sentence {
+    line-height: 2.15;
+    font-size: 17px;
+    float: left;
+    word-wrap: break-word;
+    width: 360px;
+    margin-left: 100px;
+}
+
+.tmp-name {
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    float: left;
+}
+
+.title-make {
+    float: left;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+    background: linear-gradient( to right , transparent 80%, rgba(52,152,219,.5) 80%);
+    
+}
+a {
+	text-decoration: none;
+    color: #0d0015;
+    
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 100px 0;
+    background-color: #EEE;
+}
+
+.contents {
+    width: 940px;
+    margin: 0px auto;
+    padding: 50px 0;
+    clear: both;
+    overflow: hidden;
+    /*    background-color: #DDD;*/
+}
+
+
+/* お店の名前 */
+
+.tenpo-l {
+    width: 340px;
+    float: left;
+    /*    background-color: #CCC;*/
+}
+
+.tenpo-r {
+    width: 600px;
+    float: left;
+    /*    background-color: #CCC;*/
+}
+
+
+/* 作り方 */
+
+.tukuru-l {
+    width: 600px;
+    float: left;
+    /*    background-color: #CCC;*/
+}
+
+.tukuru-r {
+    width: 340px;
+    float: left;
+    /*    background-color: #CCC;*/
+}
+
+
+/*  */
+
+.key-visual {
+    display: block;
+    margin: 0 50px;
+}
